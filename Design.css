@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*FOR DEFINISJONER AV CSS TAGS, SE DOKUMENT */
+
+body {
+	background-color: #00baff;
+	background-repeat: no-repeat;	
+}
+
+button {
+	background-color: transparent;
+	border: 3px solid;
+	padding: 20px 45px;
+	text-align: center;
+	font-size: 18px; 
+	color: #00baff;
+	border-color: #FFFF00;
+	font-family: Arial Black," sans-serif";
+	font-weight: bold;
+	overflow: hidden;
+	float: right;
+	}
+	
+button:hover {
+	
+	background-color: white;
+	color: #00baff;
+	transition: all 0.5s ease 0.2s;
+}
+
+.tilbake {
+	display: block;
+	background-color: #00baff;
+	float: left;
+	border-radius: 0px;
+	padding: 30px 40px;
+	color: #ffff00;
+	}
+
+.meny {
+	color: #00baff;
+	margin-left: 55%;
+	margin-top: 2%;
+}
+
+
+h1 {
+	color: #00baff;
+	font-family:  Arial Black," sans-serif";
+	letter-spacing: 2px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow:auto;
+	background-color: #ffff00;
+
+}
+
+.main {
+	display: block;
+	text-decoration: none;
+	width: 210px;
+	text-align: center;
+	float: right;
+	margin: 5%;
+	padding: 8px 16px;
+	
+}
+
+table {
+		font-family: arial, sans-serif;
+    border-collapse: collapse;
+	width: 60%;
+	text-align: center;
+	background-color: white;
+	border: 5px solid;
+	border-color: #ffff00;
+}
+
+p {
+	font-size: 12px;
+	
+}
+
+th {
+	background-color: #ffff00;
+	color: #00baff;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+
+.tid {
+	background-color: #ffff00;
+	color: #00baff;
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+
+tr:nth-child(even) { 
+    background-color: #474E5A;
+	color: white;
+}
+
+td, th {
+	padding: 12px;
+}
+
+footer {
+	color: white;
+	font-family: arial black;
+	position: absolute;
+	padding: 1rem;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.gutter {
+	float: left;
+	width: 45%;
+	left: 0;
+	right: 0;
+}
+
+.jenter {
+	float: right;
+	width: 45%;
+	left: 0;
+	right: 0;
+}
+
+.lister {
+	padding: 15px;
+	width: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
